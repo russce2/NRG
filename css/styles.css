@@ -1,0 +1,635 @@
+/******************************************/
+/****************SETUP********************/
+/****************************************/
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    font-size: 16px;
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+
+
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+
+.row{
+    margin: 0 -15px;
+}
+
+
+
+
+h1, h3{
+    margin: 0;
+    font-weight: 300;
+}
+
+
+
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.button-filled{
+    border: none;
+    color: black;
+    padding: 8px 10px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+
+
+
+.button-empty{
+    border: 0.5px solid #fff;
+    color: #fff;
+    padding: 8px 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+
+
+
+/******************************************/
+/****************HEADER*******************/
+/****************************************/
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+
+
+
+
+nav .container{
+    padding: 0;
+}
+
+
+
+
+nav #nav-header{
+    width: 100%;
+}
+
+
+
+
+nav #nav-header #nav-header-top{
+    list-style: none;
+    padding: 0 5%;
+}
+
+
+
+
+nav #nav-header #nav-header-top .icons{
+    display: inline;
+}
+
+
+
+
+
+nav #nav-header #nav-header-top .icons h1 a{
+    float: left;
+    width: 10%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+nav #nav-header #nav-header-top .icons .menu-toggle{
+    float: right;
+    width: 10%;
+}
+
+
+
+
+nav #nav-header-bottom{
+    list-style: none;
+    margin: 36px 8%;
+    width: 100%;
+}
+
+
+
+
+nav #nav-header-bottom .icons i{
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 26.67%;
+    margin-bottom: 10px;
+}
+
+
+
+
+nav #nav-header-bottom .icons i.cart{
+    padding: 0;
+    border: none;
+}
+
+
+
+
+
+header nav #nav-block{
+    display: none;
+}
+
+
+
+
+
+header nav #nav-vertical{
+    list-style: none;
+    position: fixed;
+    top: 80.6px;
+    left: -400px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    width: 45%;
+    height: 100vh;
+    text-align: center;
+    transition: left 0.7s ease-in-out, top 0.7s ease-in-out;
+}
+
+
+
+
+nav #nav-vertical.move{
+    left: 0px;
+}
+
+
+
+
+nav #nav-vertical li{
+    padding: 17px 0;
+    background-color: #505050;
+    border: 0.25px solid black;
+    transition: background-color 0.5s;
+}
+
+
+
+
+nav #nav-vertical li:hover{
+    background-color: #767676;
+}
+
+
+
+
+nav #nav-vertical li.highlight{
+    background-color: #767676;
+}
+
+
+
+
+
+
+
+
+nav #nav-vertical li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+nav .menu-toggle{
+    float: left;
+}
+
+
+
+
+
+#nav-brand, i{
+    width: 20%;
+    display: inline;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+
+
+
+nav #nav-brand h1{
+    display: inline;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+
+
+
+nav .cart{
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+
+
+
+
+#search-box{
+    opacity: 0;
+    padding: 5px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: -80.6px;
+    transition: opacity 0.7s ease-in-out, top 0.7s ease-in-out;
+}
+
+
+
+
+#search-box input{
+    outline: none;
+    width: 90%;
+    margin: 7px 5%;
+    padding: 8px 0;
+    text-indent: 15px;
+    border-radius: 3px;
+    border: 0.5px solid #404040;
+}
+
+
+
+
+#search-box.display{
+    opacity: 1;
+    top: 80.6px;
+}
+
+
+
+
+
+/******************************************/
+/****************WELCOME******************/
+/****************************************/
+
+#welcome{
+
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../content/images/nicklas-bajema-28096-unsplash-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 70px 0; 
+    min-height: 320px;
+}
+
+
+
+
+#welcome-box{
+    margin-top: 34%;
+}
+
+
+
+
+#welcome p{
+    font-style: italic;
+}
+
+
+
+
+/******************************************/
+/****************CATEGORIES***************/
+/****************************************/
+
+#categories #categories-box{
+    list-style: none;
+}
+
+
+
+
+#categories #categories-box .clothes-box{
+    width: 100%;
+    height: 140px;
+}
+
+
+
+
+#spring{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../content/images/alexandru-tudorache-17852-unsplash-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: #fff;
+}
+
+
+
+
+#spring button{
+    border: 0.5px solid #fff;
+    color: #fff;
+    padding: 8px 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+
+.clothes-box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+    color: #fff;
+}
+
+
+
+
+.clothes-box div {
+    padding-top: 10%;
+}
+
+
+
+
+.clothes-box div h3{
+    margin-bottom: 15px;
+}
+
+
+
+
+#summer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../content/images/sam-wheeler-2304-unsplash-min.jpg");
+}
+
+
+
+
+
+#fall{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../content/images/aaron-burden-160110-unsplash-min.jpg");
+}
+
+
+
+
+
+#winter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../content/images/ali-inay-2273-unsplash-min.jpg");
+}
+
+
+
+
+/******************************************/
+/****************PRODUCTS*****************/
+/****************************************/
+
+#products{
+    text-align: center;
+}
+
+
+
+
+
+#products h1{
+    margin-top: 30px;
+}
+
+
+
+
+#products p{
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+#products .filters li{
+    display: inline;
+    width: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 2.2%;
+    border-bottom: 2px solid #505050;
+}
+
+
+
+
+#products .products-box{
+    margin-top: 35px;
+}
+
+
+
+
+#products .products-box li{
+    width:40%;
+    float: left;
+    list-style: none;
+    margin: 0 5%;
+}
+
+
+
+
+#products .products-box p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+h5{
+    margin: 0;
+}
+
+
+
+
+#products img{
+    border-radius: 4px;
+}
+
+
+
+
+/******************************************/
+/****************SPECIALS*****************/
+/****************************************/
+
+#specials{
+    display: none;
+}
+
+
+
+
+/******************************************/
+/****************APP**********************/
+/****************************************/
+
+#app{
+    color: #fff;
+    background-color: #405050;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+#app .container{
+    width: 80%;
+}
+
+
+
+
+#app .button-empty{
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+#app button i{
+    font-size: 18px;
+}
+
+
+
+
+/******************************************/
+/****************FOOTER*******************/
+/****************************************/
+
+footer{
+    padding: 30px 0;
+    background-color: #303030;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+footer .container{
+    width: 80%;
+}
+
+
+
+
+footer #contactUs h3{
+    margin-bottom: 10px;; 
+}
+
+
+
+
+footer #contactUs i{
+    font-size: 20px;
+    width: 30px;
+}
+
+
+
+
+footer #contactUs li{
+    list-style: none;
+}
+
+
+
+
+
+footer #social li{
+    display: inline;
+    float: left;
+    width: 13%;
+    margin: 25px 1.6%;
+    text-align: center;
+    list-style: none;
+}
+
+
+
+
+footer #social i{
+    font-size: 20px;
+}
+
+
+
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+

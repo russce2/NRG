@@ -1,0 +1,504 @@
+/******************************************/
+/****************QUERIES******************/
+/****************************************/
+
+@media (min-width: 320px){
+     
+     header nav{
+       z-index: 1;
+    }
+
+
+    
+}
+
+
+
+
+
+@media (min-width: 480px){
+
+   
+
+
+
+
+
+
+    nav .nav-header #nav-brand{
+        width: 62px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 30px
+    }
+
+
+
+
+    nav .nav-header i{
+        width: 35px;
+    }
+
+
+
+
+    nav .nav-header .cart, nav .nav-header .profile {
+        float: right;
+    }
+
+
+
+
+    nav .nav-header .cart{
+        border: none;
+        margin-right: 30px;
+    }
+
+
+
+
+    #welcome{
+        min-height: 400px;
+    }
+    
+   
+    
+    
+    
+    #categories #categories-box .clothes-box{
+        width: 50%;
+        float: left;
+    } 
+
+
+
+
+    footer #contactUs{
+        text-align: center;
+    }   
+
+
+
+
+        
+}
+
+
+
+
+@media (min-width: 632px){
+
+   
+
+
+
+
+    #welcome{
+        background-position: center 23%;
+        min-height: 500px
+    }
+
+
+
+
+
+
+
+
+    #products{
+        padding-bottom: 30px;
+    }
+
+
+
+
+    #products .container{
+        width: 90%
+    }
+
+
+
+
+    #products .row .products-box{
+        margin-top: 50px; 
+        text-align: center;
+    }
+
+
+
+
+    #products .row .products-box li{
+       width: 20%;
+       margin: 0 2.5%;
+    }
+
+
+
+
+    #app p{
+        margin: 30px 0;
+    }
+
+
+
+
+    #app .button-empty{
+        width: 35%;
+    }
+          
+}
+
+
+
+
+@media (min-width: 768px){
+
+    header nav #nav-vertical{
+    display: none;
+}
+
+
+
+
+    header nav #nav-block{
+        display: block;
+    }
+
+
+
+
+    nav #nav-header{
+        width: 70%;
+    }
+
+
+
+
+    nav #nav-header-bottom{
+    list-style: none;
+    margin: 0;
+    margin-top: 3px;
+    width: 28%;
+    float: right;
+}
+
+
+
+
+nav #nav-header-bottom .icons i{
+    font-size: 23px;
+}
+
+
+
+
+    #welcome #welcome-box{
+        font-size: 1.5em;
+    }
+
+
+
+
+    #welcome #welcome-box p{
+        font-size: .78em;
+    }
+
+
+
+
+    #welcome #welcome-box button{
+        font-size: .7em;
+        width: 20%;
+    }
+
+
+
+
+    #products{
+        font-size: 1.5em;
+    }
+
+
+
+
+    #products .filters li{
+        font-size: .55em;
+    }
+
+    
+
+
+    #products p{
+        font-size: 0.60em;
+    }
+
+
+
+
+    #products .products-box h5{
+        font-size: .63em;
+    }
+
+
+
+
+    #specials{
+        font-size: .95em
+    }
+
+
+
+
+    #app{
+        font-size: 1.2em;
+    }
+
+
+
+
+    #app p{
+        font-size: .78em;
+    }
+
+
+
+
+    #app .button-empty{
+        width: 27%;
+        font-size: .6em;
+    }
+
+
+
+
+    footer{
+       font-size: .95em; 
+    }
+
+
+
+
+    footer #social i{
+        font-size: 1.15em;
+    }
+
+
+
+
+    footer p{
+        font-size: .7em;
+    }
+
+
+    
+
+    .fa-bars{
+        display: none;
+    }
+
+
+
+
+    nav .container{
+        width: 90%;
+    }
+
+
+   nav .nav-header  #nav-brand{
+       margin: 0;
+       padding: 0;
+   }
+
+   
+   nav #nav-block{
+       margin: 0;
+       padding-top: 7px;
+       padding-bottom: 7px;
+   } 
+    
+    
+
+
+    nav #nav-block{
+    clear: both;
+    margin-top: 20px;
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+nav #nav-block li{
+    display: inline;
+    width: 13.3%;
+    margin: 0 3.34%;
+}
+
+
+
+/*adds extra margin to nav links...spaces them out more towards edges*/
+nav #nav-block li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+
+    /*add new features to tablet site*/
+    #welcome{
+        background-position: center 25%;
+        min-height: 600px;
+    }
+
+
+
+
+    
+
+
+
+
+    #categories #categories-box .clothes-box{
+        width: 25%;
+    }
+    
+    
+    
+    
+    #specials{
+        display: block;
+    }
+    
+    
+    
+    
+        #specials .special-box{
+        width: 48.5%;
+        float: left;
+        margin: 30px 0.75%;
+        color: #fff;
+        min-height: 300px;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+    #specials .special-box h5{
+        text-align: left;
+        padding: 10px;
+        background-color: #b97676;
+    }
+
+
+
+
+    #specials .special-box h1{
+        margin-top: 60px;
+    }
+
+
+
+
+    #specials #special-left{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15)),url("../content/images/mark-adriane-272672-unsplash-min.jpg");
+        background-position: center 15%;
+    }
+
+
+
+
+    #specials #special-right{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15)),url("../content/images/alex-vans-colina-273348-unsplash-min.jpg");
+        background-position: center;
+    }
+
+
+
+
+    footer #social{
+        width: 40%;
+        margin: 0 auto;
+    } 
+    
+}
+
+
+
+
+@media (min-width: 992px){
+
+     #welcome{
+        min-height: 700px;
+    }
+
+
+
+
+    #welcome #welcome-box{
+        margin-top: 31%;
+    }
+}
+
+
+
+
+@media(min-width: 1100px){
+
+    #welcome #welcome-box .button-empty{
+        width: 15%;
+    }
+
+    #app .button-empty{
+        width: 20%;
+    }
+}
+
+
+
+
+@media (min-width: 1200px){
+
+    #welcome{
+        background-position: center 25%;
+       
+    }
+
+
+
+
+    #welcome #welcome-box{
+        margin-top: 25%
+    }
+
+
+
+
+    
+}
+
+
+
+
+
+
+@media (min-width: 1360px){
+
+    #welcome{
+        background-position: center 25%;
+        min-height: 600px;
+    }
+
+
+
+
+    #welcome #welcome-box{
+        margin-top: 20%
+    }
+}
